@@ -1,6 +1,6 @@
-package com.example.loansystem.security;
+package com.example.policymanagement.security;
 
-import com.example.loansystem.service.CustomUserDetailsService;
+import com.example.policymanagement.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -34,6 +34,8 @@ public class SecurityConfig {
                         .requestMatchers("/scheme/view").permitAll()
                         .requestMatchers("/policy/create","/policy/update/**","/policy/close/**").hasRole("ADMIN")
                         .requestMatchers("/policy/getPolicy/**").permitAll()
+                        .requestMatchers("/claims" , "/claims/status/**").hasRole("USER")
+                        .requestMatchers("/claims/history/**", "/claims/{id}").hasRole("ADMIN")
                         .requestMatchers("/feedback/submit", "/feedback/update/**").hasAnyRole("USER")
                         .requestMatchers("/feedback/review", "/feedback/update-status/**").hasRole("ADMIN")
                         .requestMatchers("/user/**").hasAnyRole("USER", "ADMIN")

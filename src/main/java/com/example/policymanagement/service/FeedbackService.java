@@ -1,9 +1,9 @@
-package com.example.loansystem.service;
+package com.example.policymanagement.service;
 
 
 import org.springframework.stereotype.Service;
-import com.example.loansystem.model.Feedback;
-import com.example.loansystem.repository.FeedbackRepository;
+import com.example.policymanagement.model.Feedback;
+import com.example.policymanagement.repository.FeedbackRepository;
 
 
 import java.util.List;

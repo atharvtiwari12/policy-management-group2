@@ -1,7 +1,7 @@
-package com.example.loansystem.service;
+package com.example.policymanagement.service;
 
-import com.example.loansystem.model.Scheme;
-import com.example.loansystem.repository.SchemeRepository;
+import com.example.policymanagement.model.Scheme;
+import com.example.policymanagement.repository.SchemeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

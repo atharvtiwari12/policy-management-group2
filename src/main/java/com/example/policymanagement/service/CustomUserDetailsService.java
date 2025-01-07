@@ -1,7 +1,7 @@
-package com.example.loansystem.service;
+package com.example.policymanagement.service;
 
-import com.example.loansystem.model.User;
-import com.example.loansystem.repository.UserRepository;
+import com.example.policymanagement.model.User;
+import com.example.policymanagement.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

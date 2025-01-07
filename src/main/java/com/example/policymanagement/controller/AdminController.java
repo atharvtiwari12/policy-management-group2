@@ -1,12 +1,9 @@
-package com.example.loansystem.controller;
+package com.example.policymanagement.controller;
 
-import com.example.loansystem.model.User;
-import com.example.loansystem.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+import com.example.policymanagement.model.User;
+import com.example.policymanagement.service.UserService;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

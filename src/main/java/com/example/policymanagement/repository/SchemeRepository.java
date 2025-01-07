@@ -1,6 +1,6 @@
-package com.example.loansystem.repository;
+package com.example.policymanagement.repository;
 
-import com.example.loansystem.model.Scheme;
+import com.example.policymanagement.model.Scheme;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

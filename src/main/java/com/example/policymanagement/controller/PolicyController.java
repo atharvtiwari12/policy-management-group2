@@ -1,7 +1,7 @@
-package com.example.loansystem.controller;
+package com.example.policymanagement.controller;
 
-import com.example.loansystem.model.Policy;
-import com.example.loansystem.service.PolicyService;
+import com.example.policymanagement.model.Policy;
+import com.example.policymanagement.service.PolicyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

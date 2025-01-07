@@ -1,4 +1,4 @@
-package com.example.loansystem.model;
+package com.example.policymanagement.model;
 
 
 import jakarta.persistence.Entity;

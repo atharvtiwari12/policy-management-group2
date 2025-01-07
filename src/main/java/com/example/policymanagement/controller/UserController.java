@@ -1,7 +1,7 @@
-package com.example.loansystem.controller;
+package com.example.policymanagement.controller;
 
-import com.example.loansystem.model.User;
-import com.example.loansystem.service.UserService;
+import com.example.policymanagement.model.User;
+import com.example.policymanagement.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

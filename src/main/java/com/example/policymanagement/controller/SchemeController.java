@@ -1,13 +1,11 @@
-package com.example.loansystem.controller;
+package com.example.policymanagement.controller;
 
-import com.example.loansystem.model.Scheme;
-import com.example.loansystem.service.SchemeService;
+import com.example.policymanagement.model.Scheme;
+import com.example.policymanagement.service.SchemeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.http.HttpStatus;
-
 
 
 import java.util.List;

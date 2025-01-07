@@ -1,4 +1,4 @@
-package com.example.loansystem;
+package com.example.policymanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,5 +1,5 @@
-package com.example.loansystem.repository;
-import com.example.loansystem.model.User;
+package com.example.policymanagement.repository;
+import com.example.policymanagement.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

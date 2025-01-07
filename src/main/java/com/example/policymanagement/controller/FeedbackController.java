@@ -1,7 +1,7 @@
-package com.example.loansystem.controller;
+package com.example.policymanagement.controller;
 
-import com.example.loansystem.model.Feedback;
-import com.example.loansystem.service.FeedbackService;
+import com.example.policymanagement.model.Feedback;
+import com.example.policymanagement.service.FeedbackService;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
