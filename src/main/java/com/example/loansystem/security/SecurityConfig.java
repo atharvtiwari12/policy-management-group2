@@ -34,6 +34,8 @@ public class SecurityConfig {
                         .requestMatchers("/scheme/view").permitAll()
                         .requestMatchers("/policy/create","/policy/update/**","/policy/close/**").hasRole("ADMIN")
                         .requestMatchers("/policy/getPolicy/**").permitAll()
+                        .requestMatchers("/feedback/submit", "/feedback/update/**").hasAnyRole("USER")
+                        .requestMatchers("/feedback/review", "/feedback/update-status/**").hasRole("ADMIN")
                         .requestMatchers("/user/**").hasAnyRole("USER", "ADMIN")
                         .anyRequest().authenticated()
                 )
